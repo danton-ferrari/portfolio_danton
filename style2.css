@@ -86,7 +86,7 @@ nav a {
   grid-row-end: 1;
   font-weight: 600;
   font-size: 28px;
-  line-height: 48px;
+  line-height: 8px;
   color: white;
   text-align: center;
 }
@@ -152,6 +152,7 @@ nav a {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
+    line-height: 48px;
   }
 
   .header .header-img {
