@@ -187,6 +187,117 @@ nav a:hover {
 }
 /* Sobre-Mim-Experiencia-end */
 
+/* Sobre-Mim-Experience-start */
+.experience {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  gap: 24px;
+}
+
+.experience p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-secundary);
+  text-align: center;
+}
+
+.experience .experience-time {
+  flex-direction: column;
+}
+
+.experience .experience-language,
+.experience .experience-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.experience .experience-language .experience-unit {
+  width: 300px;
+  height: 30px;
+  border-radius: 24px;
+  border: 1px solid var(--text-secundary);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.experience .experience-language .experience-unit .experience-measure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  border-radius: 24px;
+  height: 30px;
+  border: 1px solid linear-gradient(90deg, #000177 2.62%, #006bcb 93.38%);
+  background: linear-gradient(90deg, #000177 2.62%, #006bcb 93.38%);
+  color: var(--text-primary);
+  font-weight: 300;
+  text-align: center;
+  font-size: 12px;
+}
+
+.experience-h2 {
+  display: flex;
+}
+
+.experience-h2 h2 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 50px;
+  margin: 0;
+  color: white;
+}
+
+@keyframes measure-1 {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 25%;
+  }
+}
+
+@keyframes measure-2 {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  75% {
+    width: 85%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.experience
+  .experience-language
+  .experience-unit
+  .experience-measure.measure-1 {
+  width: 25%;
+  animation: measure-1 4s linear;
+}
+
+.experience
+  .experience-language
+  .experience-unit
+  .experience-measure.measure-2 {
+  width: 100%;
+  animation: measure-2 4s linear;
+}
+/* Sobre-Mim-Experience-end */
+
 /* Sobre-mim-end */
 
 /* Mobile-end */
@@ -292,6 +403,35 @@ nav a:hover {
   .qualificacoes {
     max-height: 350px;
     background: none;
+  }
+
+  .experience {
+    align-items: center;
+    max-width: none;
+  }
+
+  .experience .experience-time {
+    gap: 24px;
+  }
+
+  .experience .experience-language img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .experience .experience-language {
+    gap: 24px;
+  }
+
+  .experience .experience-language .experience-unit {
+    width: 700px;
+    height: 50px;
+    border-radius: 24px;
+  }
+
+  .experience .experience-language .experience-unit .experience-measure {
+    height: 50px;
+    font-size: 15px;
   }
   /* Sobre-mim-end */
 }
