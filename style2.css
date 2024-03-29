@@ -306,7 +306,7 @@ nav a:hover {
   display: grid;
   grid-row-start: 3;
   grid-row-end: 3;
-  width: 100vh;
+  width: 100%;
 }
 
 .body {
@@ -322,6 +322,7 @@ nav a:hover {
 .accordion {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 400px;
   gap: 16px;
@@ -431,7 +432,7 @@ nav a:hover {
 
   /* Animation-start */
   .hidden {
-    opacity: 1;
+    opacity: 0;
     filter: blur(15px);
     transform: translateX(-100%);
     transition: all 2s;
@@ -568,11 +569,16 @@ nav a:hover {
 
   /* Services-start */
   .container .services {
+    width: 100vh;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 3;
+  }
+
+  .accordion {
+    flex-direction: row;
   }
   /* Services-end */
 }
