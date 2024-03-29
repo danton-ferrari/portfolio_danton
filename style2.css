@@ -116,13 +116,14 @@ nav a {
 
 /* Sobre-mim-start */
 .sobre-mim {
-  height: 100vh;
   display: grid;
   grid-row-start: 2;
   grid-row-end: 2;
 }
 
 .curriculo {
+  max-width: 360px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -147,6 +148,7 @@ nav a {
   font-size: 26px;
   font-weight: 400;
   line-height: 50px;
+  margin: 0;
 }
 
 .qualificacoes-lista {
@@ -171,6 +173,7 @@ nav a {
   font-size: 26px;
   font-weight: 400;
   line-height: 50px;
+  margin: 0;
 }
 
 .experiencias-lista {
@@ -264,6 +267,7 @@ nav a {
 
   /* Sobre-mim-start */
   section.sobre-mim {
+    height: 100vh;
     align-items: center;
     display: grid;
     grid-column-start: 1;
@@ -273,6 +277,7 @@ nav a {
   }
 
   .curriculo {
+    max-width: none;
     max-height: 350px;
     flex-direction: row;
     border-radius: 24px;
