@@ -116,6 +116,7 @@ nav a {
 
 /* Sobre-mim-start */
 .sobre-mim {
+  height: 100vh;
   display: grid;
   grid-row-start: 2;
   grid-row-end: 2;
@@ -263,6 +264,7 @@ nav a {
 
   /* Sobre-mim-start */
   section.sobre-mim {
+    align-items: center;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -271,6 +273,7 @@ nav a {
   }
 
   .curriculo {
+    max-height: 350px;
     flex-direction: row;
     border-radius: 24px;
     background: linear-gradient(90deg, #000177 2.62%, #006bcb 93.38%);
@@ -278,6 +281,7 @@ nav a {
 
   .experiencias,
   .qualificacoes {
+    max-height: 350px;
     background: none;
   }
   /* Sobre-mim-end */
