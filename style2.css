@@ -317,6 +317,7 @@ nav a:hover {
   background: black;
   text-align: center;
   height: 500px;
+  padding: 50px;
 }
 
 .accordion {
@@ -579,6 +580,10 @@ nav a:hover {
 
   .accordion {
     flex-direction: row;
+  }
+
+  .body {
+    padding: 0;
   }
   /* Services-end */
 }
