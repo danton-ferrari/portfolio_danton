@@ -23,6 +23,7 @@ body {
   padding-top: 50px;
   margin: 0;
 }
+
 /* Mobile-start */
 
 /* Container-start */
@@ -71,6 +72,22 @@ nav a:hover {
   gap: 16px;
 }
 /* Nav-end */
+
+/* Animation-start */
+/* .hidden {
+  opacity: 1;
+  filter: blur(15px);
+  transform: translateX(-100%);
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 2s;
+} */
+/* Animation-end */
 
 /* Header-start */
 .container header {
@@ -267,35 +284,31 @@ nav a:hover {
   0% {
     width: 0%;
   }
+  /* 
   25% {
     width: 50%;
-  }
+  } */
   50% {
     width: 75%;
   }
+  /* 
   75% {
     width: 85%;
-  }
+  } */
   100% {
     width: 100%;
   }
 }
 
-.experience
-  .experience-language
-  .experience-unit
-  .experience-measure.measure-1 {
+.measure1 {
   width: 25%;
   animation: measure-1 4s linear;
 }
-
-.experience
-  .experience-language
-  .experience-unit
-  .experience-measure.measure-2 {
+.measure2 {
   width: 100%;
-  animation: measure-2 4s linear;
+  animation: measure-2 2s linear;
 }
+
 /* Sobre-Mim-Experience-end */
 
 /* Sobre-mim-end */
