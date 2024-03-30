@@ -20,7 +20,9 @@ body {
   width: 100%;
   background: linear-gradient(#006bcb 20%, #000177 80%);
   min-height: 100px;
-  padding: 3% 5%;
+  /* padding: 3% 5%; */
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   color: white;
 }
@@ -85,6 +87,10 @@ a {
   }
 }
 
+.col-social {
+  padding-bottom: 24px;
+}
+
 .social a img {
   height: 20px;
   width: 20px;
@@ -130,10 +136,6 @@ a {
   margin-bottom: 10px;
 }
 
-/* .row .col {
-  width: 25%;
-} */
-
 .social {
   display: flex;
   gap: 20px;
@@ -149,15 +151,6 @@ a {
   align-content: center;
 }
 
-/* .social li a {
-  height: 44px;
-  width: 44px;
-  border: 1px solid white;
-  border-radius: 50%;
-  transition: 0.6s;
-  position: relative;
-} */
-
 .social li i {
   position: absolute;
   top: 50%;
@@ -166,15 +159,6 @@ a {
   font-size: 18px;
   transition: 0.6s;
 }
-
-/* .social li a img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-  transition: 0.6s;
-} */
 
 .social li:hover {
   background-color: white;
