@@ -164,7 +164,7 @@ nav a:hover {
 .qualificacoes-lista {
   font-size: 14px;
   font-weight: 400;
-  margin: 30px;
+  margin: 10px 30px 30px 30px;
 }
 /* Sobre-Mim-Qualificacoes-End */
 
@@ -189,7 +189,7 @@ nav a:hover {
 .experiencias-lista {
   font-size: 14px;
   font-weight: 400;
-  margin: 30px;
+  margin: 10px 30px 30px 30px;
 }
 /* Sobre-Mim-Experiencia-end */
 
