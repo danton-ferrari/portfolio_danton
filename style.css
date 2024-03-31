@@ -78,7 +78,9 @@ nav a:hover {
 /* Header-start */
 .container header {
   align-content: center;
-  height: 100vh;
+  /* height: 100vh; */
+  padding-top: 100px;
+  padding-bottom: 40px;
   grid-row-start: 1;
   grid-row-end: 1;
 }
@@ -96,7 +98,7 @@ nav a:hover {
   font-weight: 600;
   font-size: 28px;
   color: white;
-  line-height: 8px;
+  line-height: 100%;
   text-align: center;
 }
 
