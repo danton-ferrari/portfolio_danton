@@ -738,7 +738,6 @@ nav a:hover {
 
   /* Services-start */
   .container .services {
-    width: 100vh;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -748,6 +747,17 @@ nav a:hover {
 
   .accordion {
     flex-direction: row;
+  }
+
+  .accordion li {
+    flex: 0 0 250px;
+  }
+
+  .accordion li:hover {
+    flex: 0 1 500px;
+    scale: 1.1;
+    z-index: 10;
+    opacity: 1;
   }
 
   .body {
